@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eea0f33c-780f-40cd-bcf0-643bf975f431" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/demo-security/target/" />
+    <ignored path="$PROJECT_DIR$/demo1-security/target/" />
+    <ignored path="$PROJECT_DIR$/demo2-security/target/" />
+    <ignored path="$PROJECT_DIR$/demo3-security/target/" />
+    <ignored path="$PROJECT_DIR$/demo4-security/target/" />
+    <ignored path="$PROJECT_DIR$/csrf-security/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="22" column="7" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4-security/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4-security/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/config/SecurityConfigByDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1387">
+              <caret line="98" column="60" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/CsrfSecurityApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/controller/CSRFController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csrf-security/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>atguigu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>kaysanshi</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\Java\spring-security\csrf-security</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo1-security/src/test/java/com/kaysanshi/demo1security/Demo1SecurityApplicationTests.java" />
+        <option value="$PROJECT_DIR$/demo-security/src/main/java/com/kaysanshi/demosecurity/config/SecurityAllConfig.java" />
+        <option value="$PROJECT_DIR$/demo-security/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/demo-security/src/main/java/com/kaysanshi/demosecurity/config/SecurityConfigurer.java" />
+        <option value="$PROJECT_DIR$/demo1-security/ReadMe.MD" />
+        <option value="$PROJECT_DIR$/demo1-security/ReadMe.md" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/service/MyUserDetailsServicce.java" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/service/UserDeatilsServiceByDB.java" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/dao/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/Demo1SecurityApplication.java" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/bean/Users.java" />
+        <option value="$PROJECT_DIR$/demo-security/src/main/java/com/kaysanshi/demosecurity/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/demo2-security/src/main/java/com/kaysanshi/demo2security/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/demo2-security/src/main/java/com/kaysanshi/demo2security/controller/SecurityTestController.java" />
+        <option value="$PROJECT_DIR$/demo2-security/src/main/resources/templates/login_p.html" />
+        <option value="$PROJECT_DIR$/demo2-security/pom.xml" />
+        <option value="$PROJECT_DIR$/demo1-security/pom.xml" />
+        <option value="$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/service/MyUserDetailsServicce.java" />
+        <option value="$PROJECT_DIR$/demo3-security/pom.xml" />
+        <option value="$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/dao/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/service/UserDetailsServiceByDB.java" />
+        <option value="$PROJECT_DIR$/demo3-security/ReadMe.md" />
+        <option value="$PROJECT_DIR$/demo2-security/ReadMe.md" />
+        <option value="$PROJECT_DIR$/demo2-security/src/main/java/com/kaysanshi/demo2security/config/SecurityAllConfig.java" />
+        <option value="$PROJECT_DIR$/demo2-security/src/main/java/com/kaysanshi/demo2security/service/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/config/SecurityConfigByDB.java" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/service/UserDetailsServiceByDB.java" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/resources/static/unauth.html" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/config/SecurityConfigByDB.java" />
+        <option value="$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/Demo3SecurityApplication.java" />
+        <option value="$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/bean/Users.java" />
+        <option value="$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/service/UserDetailsServiceByDB.java" />
+        <option value="$PROJECT_DIR$/demo4-security/src/main/resources/static/login.html" />
+        <option value="$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/dao/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/Demo4SecurityApplication.java" />
+        <option value="$PROJECT_DIR$/demo4-security/src/main/resources/static/success.html" />
+        <option value="$PROJECT_DIR$/demo4-security/pom.xml" />
+        <option value="$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/config/SecurityConfigByDB.java" />
+        <option value="$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/CsrfSecurityApplication.java" />
+        <option value="$PROJECT_DIR$/csrf-security/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/SoftWare/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\SoftWare\mavenstorage\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="273" />
+    <option name="y" value="78" />
+    <option name="width" value="1619" />
+    <option name="height" value="890" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="jdbcTok&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl&#10;PasswordEncoder&#9;FILE&#9;jar://D:/SoftWare/mavenstorage/repository/org/springframework/security/spring-security-core/5.3.4.RELEASE/spring-security-core-5.3.4.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class&#10;UserDetailService&#9;FILE&#9;jar://D:/SoftWare/mavenstorage/repository/org/springframework/security/spring-security-core/5.3.4.RELEASE/spring-security-core-5.3.4.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603619470248" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="F:/Repos/spring-security微服务方案案例/acl_parent" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kaysanshi.demo4security.bean" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kaysanshi.demo2security" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\spring-security" />
+      <recent name="F:\Java\spring-security\demo3-security\src\main\java\com\kaysanshi\demo3security" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kaysanshi.demo4security.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\spring-security\demo2-security\src\main\resources\templates" />
+      <recent name="F:\Java\spring-security\demo2-security\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CsrfSecurityApplication">
+    <configuration name="Demo1SecurityApplicationTests.testBCryptPasswordEncoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1-security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaysanshi.demo1security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaysanshi.demo1security" />
+      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.demo1security.Demo1SecurityApplicationTests" />
+      <option name="METHOD_NAME" value="testBCryptPasswordEncoder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsrfSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="csrf-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.csrfsecurity.CsrfSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo1-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.demo1security.Demo1SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo2-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.demo2security.Demo2SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo3-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.demo3security.Demo3SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo4-security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaysanshi.demo4security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.demo4security.Demo4SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaysanshi.demosecurity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.demosecurity.DemoSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Demo1SecurityApplication" />
+      <item itemvalue="Spring Boot.Demo2SecurityApplication" />
+      <item itemvalue="Spring Boot.Demo3SecurityApplication" />
+      <item itemvalue="Spring Boot.CsrfSecurityApplication" />
+      <item itemvalue="JUnit.Demo1SecurityApplicationTests.testBCryptPasswordEncoder" />
+      <item itemvalue="Spring Boot.DemoSecurityApplication" />
+      <item itemvalue="Spring Boot.Demo4SecurityApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Demo4SecurityApplication" />
+        <item itemvalue="Spring Boot.DemoSecurityApplication" />
+        <item itemvalue="JUnit.Demo1SecurityApplicationTests.testBCryptPasswordEncoder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eea0f33c-780f-40cd-bcf0-643bf975f431" name="Default Changelist" comment="" />
+      <created>1603518264374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603518264374</updated>
+      <workItem from="1603518265906" duration="14484000" />
+      <workItem from="1603589754161" duration="17460000" />
+      <workItem from="1603619656853" duration="655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Demo1SecurityApplicationTests_testBCryptPasswordEncoder - 2020.10.24 at 15h 40m 59s.xml">
+      <configuration name="Demo1SecurityApplicationTests.testBCryptPasswordEncoder" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32599000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="219" y="63" width="1295" height="712" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49805447" visible="true" weight="0.29102668" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" sideWeight="0.5019455" side_tool="true" weight="0.24222222" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Alibaba Cloud Explorer" order="8" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.07913669" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32874617" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32874617" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="13" weight="0.067292646" />
+      <window_info anchor="bottom" id="MyBatis Log" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.39602447" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Redis Servers" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32928804" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo2-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-security/src/main/java/com/kaysanshi/demosecurity/config/SecurityConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2-security/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2-security/src/main/resources/templates/login_p.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/config/SecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/demo1-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/service/MyUserDetailsServicce.java" />
+    <entry file="file://$PROJECT_DIR$/demo2-security/src/main/java/com/kaysanshi/demo2security/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2-security/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="532">
+            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2-security/src/main/java/com/kaysanshi/demo2security/Demo2SecurityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2-security/src/main/java/com/kaysanshi/demo2security/service/MyUserDetailsService.java" />
+    <entry file="file://$PROJECT_DIR$/demo2-security/src/main/java/com/kaysanshi/demo2security/controller/SecurityTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1-security/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SoftWare/mavenstorage/repository/org/springframework/security/spring-security-core/5.3.4.RELEASE/spring-security-core-5.3.4.RELEASE.jar!/org/springframework/security/core/authority/AuthorityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1-security/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/Demo1SecurityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/service/MyUserDetailsServicce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/service/UserDetailsServiceByDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1-security/src/main/resources/static/unauth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1-security/src/main/java/com/kaysanshi/demo1security/config/SecurityConfigByDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2-security/src/main/java/com/kaysanshi/demo2security/config/SecurityAllConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/Demo3SecurityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/bean/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/dao/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/service/UserDetailsServiceByDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/config/SecurityConfigByDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3-security/src/main/java/com/kaysanshi/demo3security/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/config/SecurityConfig.java" />
+    <entry file="jar://D:/SoftWare/mavenstorage/repository/org/springframework/security/spring-security-web/5.3.4.RELEASE/spring-security-web-5.3.4.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/JdbcTokenRepositoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="203" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/bean/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/resources/static/unauth.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/dao/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/Demo4SecurityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/resources/static/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/service/UserDetailsServiceByDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/resources/static/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/atguigu/aclservice/controller/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/acl_parent/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="7" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4-security/src/main/java/com/kaysanshi/demo4security/config/SecurityConfigByDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="98" column="60" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/CsrfSecurityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/controller/CSRFController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csrf-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

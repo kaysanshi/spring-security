@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="csrf-security" />
+        <module name="demo-security" />
+        <module name="demo1-security" />
+        <module name="demo2-security" />
+        <module name="demo3-security" />
+        <module name="demo4-security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="csrf-security" target="1.8" />
+      <module name="demo-security" target="1.8" />
+      <module name="demo1-security" target="1.8" />
+      <module name="demo2-security" target="1.8" />
+      <module name="demo3-security" target="1.8" />
+      <module name="demo4-security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="csrf-security" options="-parameters" />
+      <module name="demo-security" options="-parameters" />
+      <module name="demo1-security" options="-parameters" />
+      <module name="demo2-security" options="-parameters" />
+      <module name="demo3-security" options="-parameters" />
+      <module name="demo4-security" options="-parameters" />
+    </option>
+  </component>
+</project>
