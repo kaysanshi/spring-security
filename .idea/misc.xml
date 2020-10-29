@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/demo3-security/pom.xml" />
         <option value="$PROJECT_DIR$/demo4-security/pom.xml" />
         <option value="$PROJECT_DIR$/csrf-security/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-redis-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2/pom.xml" />
       </list>
     </option>
   </component>

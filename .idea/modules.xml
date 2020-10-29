@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/demo3-security/demo3-security.iml" filepath="$PROJECT_DIR$/demo3-security/demo3-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo4-security/demo4-security.iml" filepath="$PROJECT_DIR$/demo4-security/demo4-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-security.iml" filepath="$PROJECT_DIR$/.idea/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/spring-security-oauth2.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/spring-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-redis/spring-security-oauth2-redis.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-redis/spring-security-oauth2-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-redis-datasource/spring-security-oauth2-redis-datasource.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-redis-datasource/spring-security-oauth2-redis-datasource.iml" />
     </modules>
   </component>
 </project>

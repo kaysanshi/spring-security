@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eea0f33c-780f-40cd-bcf0-643bf975f431" name="Default Changelist" comment="" />
+    <list default="true" id="eea0f33c-780f-40cd-bcf0-643bf975f431" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo4-security/src/test/java/com/kaysanshi/demo1security/Demo1SecurityApplicationTests.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/demo-security/target/" />
     <ignored path="$PROJECT_DIR$/demo1-security/target/" />
     <ignored path="$PROJECT_DIR$/demo2-security/target/" />
     <ignored path="$PROJECT_DIR$/demo3-security/target/" />
     <ignored path="$PROJECT_DIR$/demo4-security/target/" />
     <ignored path="$PROJECT_DIR$/csrf-security/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-oauth2/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-oauth2-redis-datasource/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-oauth2-redis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -117,6 +127,9 @@
     <dirStrings>
       <dir>F:\Java\spring-security\csrf-security</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -196,9 +209,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="273" />
-    <option name="y" value="78" />
-    <option name="width" value="1619" />
+    <option name="x" value="112" />
+    <option name="y" value="50" />
+    <option name="width" value="1620" />
     <option name="height" value="890" />
   </component>
   <component name="ProjectView">
@@ -206,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,7 +232,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +245,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603619470248" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="F:/Repos/spring-security微服务方案案例/acl_parent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security-oauth2/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -342,6 +355,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringSecurityOauth2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-security-oauth2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.springsecurityoauth2.SpringSecurityOauth2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityOauth2RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-security-oauth2-redis-datasource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.springsecurityoauth2.SpringSecurityOauth2RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.Demo1SecurityApplication" />
       <item itemvalue="Spring Boot.Demo2SecurityApplication" />
@@ -350,6 +377,8 @@
       <item itemvalue="JUnit.Demo1SecurityApplicationTests.testBCryptPasswordEncoder" />
       <item itemvalue="Spring Boot.DemoSecurityApplication" />
       <item itemvalue="Spring Boot.Demo4SecurityApplication" />
+      <item itemvalue="Spring Boot.SpringSecurityOauth2Application" />
+      <item itemvalue="Spring Boot.SpringSecurityOauth2RedisApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -372,6 +401,7 @@
       <workItem from="1603518265906" duration="14484000" />
       <workItem from="1603589754161" duration="17460000" />
       <workItem from="1603619656853" duration="655000" />
+      <workItem from="1603977040343" duration="826000" />
     </task>
     <servers />
   </component>
@@ -381,12 +411,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32599000" />
+    <option name="totallyTimeSpent" value="33425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="219" y="63" width="1295" height="712" extended-state="0" />
+    <frame x="90" y="40" width="1296" height="712" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49805447" visible="true" weight="0.29102668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49805447" visible="true" weight="0.2956381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5019455" side_tool="true" weight="0.24222222" />
@@ -421,7 +451,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Redis Servers" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32928804" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.32875606" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -749,7 +779,7 @@
     <entry file="file://$PROJECT_DIR$/csrf-security/src/main/java/com/kaysanshi/csrfsecurity/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
