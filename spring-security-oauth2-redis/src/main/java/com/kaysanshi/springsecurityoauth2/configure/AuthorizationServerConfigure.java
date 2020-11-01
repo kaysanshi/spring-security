@@ -16,7 +16,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.provider.token.TokenStore;
 
 /**
- * Description:
+ * Description: 授权服务器的配置
  * author2配置
  * AuthorizationServerConfigurerAdapter 包括：
  * ClientDetailsServiceConfigurer：用来配置客户端详情服务（ClientDetailsService），客户端详情信息在这里进行初始化，你能够把客户端详情信息写死在这里或者是通过数据库来存储调取详情信息。
@@ -73,13 +73,7 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
                 .resourceIds("rid") //配置资源id
                 .scopes("all") // 允许授权范围
                 .secret("$2a$10$RMuFXGQ5AtH4wOvkUqyvuecpqUSeoxZYqilXzbz50dceRsga.WYiq") //123加密后的密码
-                .and()
-                .withClient("client") // 可以再配置一个基于client认证的
-                .resourceIds("resource_id")
-                .authorizedGrantTypes("client_credentials", "refresh_token")
-                .scopes("all")
-                .authorities("client")
-                .secret("$2a$10$RMuFXGQ5AtH4wOvkUqyvuecpqUSeoxZYqilXzbz50dceRsga.WYiq");
+                ;
     }
 
     /**

@@ -1,6 +1,7 @@
 package com.kaysanshi.springsecurityoauth2.configure;
 
 
+import com.kaysanshi.springsecurityoauth2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -30,29 +31,20 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 @EnableAuthorizationServer // 开启认证授权服务器
 public class AuthorizationServerConfigure extends AuthorizationServerConfigurerAdapter {
 
-    // 该对象用来支持 password 模式
+    // 密码授权的操作就是通过这个对象把密码传入授权服务器的
     @Autowired
-    AuthenticationManager authenticationManager;
+    private AuthenticationManager authenticationManager;
 
     // 将令牌信息存储到内存中
     @Autowired(required = false)
-    TokenStore inMemoryTokenStore;
+    private TokenStore inMemoryTokenStore; // 也可以使用redis进行存储
 
     // 该对象将为刷新token提供支持
     @Autowired
-    UserDetailsService userDetailsService;
+    private UserService userService;
 
-    /**
-     * 配置密码加密，因为再UserDetailsService是依赖与这个类的。
-     *
-     * @return
-     */
-    // 指定密码的加密方式
-    @Bean
-    PasswordEncoder passwordEncoder() {
-        // 使用BCrypt强哈希函数加密方案（密钥迭代次数默认为10）
-        return new BCryptPasswordEncoder();
-    }
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     /**
      * ClientDetailsServiceConfigurer
@@ -65,46 +57,32 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
     @Override
     public void configure(ClientDetailsServiceConfigurer clients)
             throws Exception {
-        // 配置一个客户端用于password认证的。同时也可以同时配置两个，可以再配置一个基于client认证的。
+        // 配置一个基于password认证的。
         clients.inMemory()
-                .withClient("password")
-                .authorizedGrantTypes("password", "refresh_token") //授权模式为password和refresh_token两种
-                .accessTokenValiditySeconds(1800) // 配置access_token的过期时间
-                .resourceIds("rid") //配置资源id
-                .scopes("all") // 允许授权范围
-                .secret("$2a$10$RMuFXGQ5AtH4wOvkUqyvuecpqUSeoxZYqilXzbz50dceRsga.WYiq") //123加密后的密码
-                .and()
-                .withClient("client") // 可以再配置一个基于client认证的
-                .resourceIds("resource_id")
-                .authorizedGrantTypes("client_credentials", "refresh_token")
+                // 配置clientId
+                .withClient("admin")
+                // 配置client-secret
+                .secret(passwordEncoder.encode("112233"))
+                // 配置token过期时间
+                .accessTokenValiditySeconds(2630)
+                // 配置 redirectUri，用于授权成功后跳转
+                .redirectUris("http://www.baidu.com")
+                // 配置申请的权限范围
                 .scopes("all")
-                .authorities("client")
-                .secret("$2a$10$RMuFXGQ5AtH4wOvkUqyvuecpqUSeoxZYqilXzbz50dceRsga.WYiq");
+                // 配置grant_type 表示授权类型。 使用密码模式
+                .authorizedGrantTypes("password");
     }
 
     /**
+     * 使用密码模式所需配置
      * AuthorizationServerEndpointsConfigurer 访问端点配置 是一个装载类
      * 装载Endpoints所有相关的类配置（AuthorizationServer、TokenServices、TokenStore、ClientDetailsService、UserDetailsService）。
-     *
      * @param endpoints
      */
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
         endpoints.tokenStore(inMemoryTokenStore) //配置令牌的存储（这里存放在内存中）
                 .authenticationManager(authenticationManager)
-                .userDetailsService(userDetailsService);
-    }
-
-    /**
-     * AuthorizationServerSecurityConfigurer继承SecurityConfigurerAdapter.
-     * 也就是一个 Spring Security安全配置提供给AuthorizationServer去配置AuthorizationServer的端点（/oauth/****）的安全访问规则、过滤器Filter。
-     *
-     * @param security
-     */
-    @Override
-    public void configure(AuthorizationServerSecurityConfigurer security) {
-        // 表示支持 client_id 和 client_secret 做登录认证
-        // 允许使用表单认证
-        security.allowFormAuthenticationForClients();
+                .userDetailsService(userService);
     }
 }

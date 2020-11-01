@@ -16,18 +16,20 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 @Configuration
 @EnableResourceServer
 public class ResourceServerConfigure extends ResourceServerConfigurerAdapter {
-    @Override
-    public void configure(ResourceServerSecurityConfigurer resources) {
-        resources.resourceId("rid") // 配置资源id，这里的资源id和授权服务器中的资源id一致
-                .stateless(true); // 设置这些资源仅基于令牌认证
-    }
-
+    /**
+     * 配置响应资源的访问。
+     *
+     * @param http
+     * @throws Exception
+     */
     // 配置 URL 访问权限
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/admin/**").hasRole("admin")
-                .antMatchers("/user/**").hasRole("user")
-                .anyRequest().authenticated();
+                .anyRequest()
+                .authenticated()
+                .and()
+                .requestMatchers()
+                .antMatchers("/test/**");
     }
 }

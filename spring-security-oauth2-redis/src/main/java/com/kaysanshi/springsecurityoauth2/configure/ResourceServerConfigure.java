@@ -22,6 +22,11 @@ public class ResourceServerConfigure extends ResourceServerConfigurerAdapter {
                 .stateless(true); // 设置这些资源仅基于令牌认证
     }
 
+    /**
+     * 配置响应资源的访问。
+     * @param http
+     * @throws Exception
+     */
     // 配置 URL 访问权限
     @Override
     public void configure(HttpSecurity http) throws Exception {

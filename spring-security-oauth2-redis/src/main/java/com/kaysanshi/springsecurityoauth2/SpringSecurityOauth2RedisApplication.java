@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Spring security oauth2集成，
  * token是存在内存中不涉及到redis保存
- *
+ *  密码模式
  */
 @SpringBootApplication
 public class SpringSecurityOauth2RedisApplication {
