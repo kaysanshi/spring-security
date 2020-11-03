@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-security-jjwt-demo/spring-security-jjwt-demo.iml" filepath="$PROJECT_DIR$/spring-security-jjwt-demo/spring-security-jjwt-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/spring-security-oauth2.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/spring-security-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-demo/spring-security-oauth2-demo.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-demo/spring-security-oauth2-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-jwt/spring-security-oauth2-jwt.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-jwt/spring-security-oauth2-jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-redis/spring-security-oauth2-redis.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-redis/spring-security-oauth2-redis.iml" />
     </modules>
   </component>
