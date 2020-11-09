@@ -15,9 +15,14 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.A
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
+import org.springframework.security.oauth2.provider.token.TokenEnhancer;
+import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Description:
@@ -40,7 +45,7 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
 
     @Autowired
     @Qualifier("jwtTokenStore")
-    private JwtTokenStore jwtTokenStore;
+    private TokenStore jwtTokenStore;
 
     @Autowired
     private JwtAccessTokenConverter jwtAccessTokenConverter;
@@ -51,6 +56,11 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
 
     @Autowired
     private PasswordEncoder passwordEncoder;
+
+    // 引入JwtTokenEnhancer
+    @Autowired
+    private JwtTokenEnhancer jwtTokenEnhancer;
+
 
     /**
      * ClientDetailsServiceConfigurer
@@ -87,10 +97,20 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
      */
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
+       // 配置内容增强
+        TokenEnhancerChain enhancerChain = new TokenEnhancerChain();
+        List<TokenEnhancer> delegates = new ArrayList <>();
+        delegates.add(jwtTokenEnhancer);
+        delegates.add(jwtAccessTokenConverter);
+        enhancerChain.setTokenEnhancers(delegates);
+        //
+
         endpoints.authenticationManager(authenticationManager)
                 .userDetailsService(userService)
                 // 配置存储令牌策略
                 .tokenStore(jwtTokenStore)
-                .accessTokenConverter(jwtAccessTokenConverter);
+                .accessTokenConverter(jwtAccessTokenConverter)
+                // 需要在这里进行配置
+                .tokenEnhancer(enhancerChain);
     }
 }

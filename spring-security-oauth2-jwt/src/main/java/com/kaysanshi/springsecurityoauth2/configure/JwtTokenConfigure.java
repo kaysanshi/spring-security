@@ -7,7 +7,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenCo
 import org.springframework.security.oauth2.provider.token.store.jwk.JwkTokenStore;
 
 /**
- * Jwt token 配置类
+ * Jwt token 配置类配置存储
  * @Author kay三石
  * @date:2020/11/2
  */
@@ -17,7 +17,7 @@ public class JwtTokenConfigure {
     @Bean
     public TokenStore jwtTokenStore(){
         // 基于jWT实现的令牌
-        return new JwkTokenStore("keyurl",jwtAccessTokenConverter());
+        return new JwkTokenStore("http://keyurl",jwtAccessTokenConverter());
     }
 
     @Bean
@@ -26,5 +26,14 @@ public class JwtTokenConfigure {
         // 配置JWt的使用密钥
         accessTokenConverter.setSigningKey("test_key");
         return accessTokenConverter;
+    }
+
+    /**
+     * JWt增强实例化
+     * @return
+     */
+    @Bean
+    public JwtTokenEnhancer jwtTokenEnhancer(){
+        return new JwtTokenEnhancer();
     }
 }
