@@ -2,15 +2,26 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/csrf-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/csrf-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo1-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo1-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo2-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo3-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo3-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo4-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo4-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security-jjwt-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-jjwt-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security-oauth2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security-oauth2-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security-oauth2-jwt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2-jwt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security-oauth2-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/src/main/java" charset="UTF-8" />
   </component>
 </project>

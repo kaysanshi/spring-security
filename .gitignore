@@ -1,4 +1,4 @@
-HELP.md
+spring-security-oauth2-redis/HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -15,6 +15,7 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
+.idea/**
 *.iws
 *.iml
 *.ipr
@@ -31,3 +32,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/.idea/
