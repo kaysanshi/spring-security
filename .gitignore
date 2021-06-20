@@ -47,3 +47,4 @@ build/
 .idea/modules.xml
 .idea/workspace.xml
 /spring-security-oauth2-jwt-demo/.mvn/
+/.idea/
