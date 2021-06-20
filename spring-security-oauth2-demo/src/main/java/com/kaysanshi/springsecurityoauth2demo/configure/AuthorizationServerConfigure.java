@@ -58,12 +58,20 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
                 .secret(passwordEncode.encode("112233"))
                 // 配置token过期时间
                 .accessTokenValiditySeconds(2630)
+                .refreshTokenValiditySeconds(864000)
                 // 配置 redirectUri，用于授权成功后跳转
-                .redirectUris("http://www.baidu.com")
+                .redirectUris("http://127.0.0.1:8083/user/getCurrentUser")
+                // 自动授权
+                .autoApprove(true)
                 // 配置申请的权限范围
                 .scopes("all")
-                // 配置grant_type 表示授权类型。 使用授权码模式
-                .authorizedGrantTypes("authorization_code");
+                // 配置grant_type 表示授权类型。 使用密码模式
+                .authorizedGrantTypes("password","refresh_token","authorization_code");
 
+    }
+    @Override
+    public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
+        // 获取密钥需要身份认证,使用单点登录时必须配置
+        security.tokenKeyAccess("isAuthenticated()");
     }
 }
