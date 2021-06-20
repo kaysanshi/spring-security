@@ -23,12 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eea0f33c-780f-40cd-bcf0-643bf975f431" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-jwt-server/src/main/java/com/kaysanshi/oauth2/jwt/server/configure/AuthorizationServerConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-jwt-server/src/main/java/com/kaysanshi/oauth2/jwt/server/configure/AuthorizationServerConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,7 +352,7 @@
       <workItem from="1616628830371" duration="1219000" />
       <workItem from="1621736834225" duration="7772000" />
       <workItem from="1621774458900" duration="1252000" />
-      <workItem from="1624168034042" duration="18323000" />
+      <workItem from="1624168034042" duration="18382000" />
     </task>
     <servers />
   </component>
