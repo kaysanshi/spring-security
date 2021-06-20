@@ -2,20 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="csrf-security" />
-        <module name="demo-security" />
-        <module name="demo1-security" />
-        <module name="demo2-security" />
         <module name="demo3-security" />
-        <module name="demo4-security" />
-        <module name="spring-security-jjwt-demo" />
-        <module name="spring-security-oauth2" />
         <module name="spring-security-oauth2-demo" />
-        <module name="spring-security-oauth2-jwt" />
+        <module name="csrf-security" />
+        <module name="spring-security-oauth2-client" />
+        <module name="spring-security-oauth2" />
+        <module name="spring-security-jjwt-demo" />
+        <module name="spring-security-oauth2-jwt-demo" />
+        <module name="demo2-security" />
+        <module name="spring-security-oauth2-jwt-server" />
+        <module name="demo1-security" />
+        <module name="spring-security-client-auth2 (1)" />
+        <module name="spring-security-oauth2-jwt-client" />
+        <module name="demo4-security" />
+        <module name="spring-security-auth-client" />
+        <module name="demo-security" />
         <module name="spring-security-oauth2-redis" />
       </profile>
     </annotationProcessing>
@@ -26,10 +32,16 @@
       <module name="demo2-security" target="1.8" />
       <module name="demo3-security" target="1.8" />
       <module name="demo4-security" target="1.8" />
+      <module name="spring-security-auth-client" target="1.8" />
+      <module name="spring-security-client-auth2" target="1.8" />
+      <module name="spring-security-client-auth2 (1)" target="1.8" />
       <module name="spring-security-jjwt-demo" target="1.8" />
       <module name="spring-security-oauth2" target="1.8" />
+      <module name="spring-security-oauth2-client" target="1.8" />
       <module name="spring-security-oauth2-demo" target="1.8" />
-      <module name="spring-security-oauth2-jwt" target="1.8" />
+      <module name="spring-security-oauth2-jwt-client" target="1.8" />
+      <module name="spring-security-oauth2-jwt-demo" target="1.8" />
+      <module name="spring-security-oauth2-jwt-server" target="1.8" />
       <module name="spring-security-oauth2-redis" target="1.8" />
       <module name="spring-security-oauth2-redis-datasource" target="1.8" />
       <module name="spring-sercurity-oauth2-demo" target="1.8" />
@@ -43,10 +55,16 @@
       <module name="demo2-security" options="-parameters" />
       <module name="demo3-security" options="-parameters" />
       <module name="demo4-security" options="-parameters" />
+      <module name="spring-security-auth-client" options="-parameters" />
+      <module name="spring-security-client-auth2" options="-parameters" />
+      <module name="spring-security-client-auth2 (1)" options="-parameters" />
       <module name="spring-security-jjwt-demo" options="-parameters" />
       <module name="spring-security-oauth2" options="-parameters" />
+      <module name="spring-security-oauth2-client" options="-parameters" />
       <module name="spring-security-oauth2-demo" options="-parameters" />
-      <module name="spring-security-oauth2-jwt" options="-parameters" />
+      <module name="spring-security-oauth2-jwt-client" options="-parameters" />
+      <module name="spring-security-oauth2-jwt-demo" options="-parameters" />
+      <module name="spring-security-oauth2-jwt-server" options="-parameters" />
       <module name="spring-security-oauth2-redis" options="-parameters" />
       <module name="spring-security-oauth2-redis-datasource" options="-parameters" />
       <module name="spring-sercurity-oauth2-demo" options="-parameters" />

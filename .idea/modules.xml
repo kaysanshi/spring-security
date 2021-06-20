@@ -9,10 +9,15 @@
       <module fileurl="file://$PROJECT_DIR$/demo3-security/demo3-security.iml" filepath="$PROJECT_DIR$/demo3-security/demo3-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo4-security/demo4-security.iml" filepath="$PROJECT_DIR$/demo4-security/demo4-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-security.iml" filepath="$PROJECT_DIR$/.idea/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-client/spring-security-auth-client.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-client/spring-security-auth-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-client/spring-security-client-auth2 (1).iml" filepath="$PROJECT_DIR$/spring-security-oauth2-client/spring-security-client-auth2 (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-jjwt-demo/spring-security-jjwt-demo.iml" filepath="$PROJECT_DIR$/spring-security-jjwt-demo/spring-security-jjwt-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/spring-security-oauth2.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/spring-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-client/spring-security-oauth2-client.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-client/spring-security-oauth2-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-demo/spring-security-oauth2-demo.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-demo/spring-security-oauth2-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-jwt/spring-security-oauth2-jwt.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-jwt/spring-security-oauth2-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-jwt-client/spring-security-oauth2-jwt-client.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-jwt-client/spring-security-oauth2-jwt-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-jwt-demo/spring-security-oauth2-jwt-demo.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-jwt-demo/spring-security-oauth2-jwt-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-jwt-server/spring-security-oauth2-jwt-server.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-jwt-server/spring-security-oauth2-jwt-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-redis/spring-security-oauth2-redis.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-redis/spring-security-oauth2-redis.iml" />
     </modules>
   </component>
