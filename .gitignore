@@ -34,7 +34,6 @@ build/
 .vscode/
 /.idea/
 .idea/compiler.xml
-.idea/compiler.xml
 .idea/encodings.xml
 .idea/workspace.xml
 .idea/modules.xml

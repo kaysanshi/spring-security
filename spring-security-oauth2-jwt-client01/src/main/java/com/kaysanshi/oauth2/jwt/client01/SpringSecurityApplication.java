@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth
 
 /**
  * 对应的是spring-security-oauth2-jwt-server服务注册的客户端
+ * 将两个客服端服务都去server认证
  */
 @SpringBootApplication
 // 开启单点登录
