@@ -14,6 +14,7 @@
         <module name="spring-security-oauth2" />
         <module name="spring-security-jjwt-demo" />
         <module name="spring-security-oauth2-jwt-demo" />
+        <module name="spring-security-oauth2-jwt-client01" />
         <module name="demo2-security" />
         <module name="spring-security-oauth2-jwt-server" />
         <module name="demo1-security" />
@@ -40,6 +41,7 @@
       <module name="spring-security-oauth2-client" target="1.8" />
       <module name="spring-security-oauth2-demo" target="1.8" />
       <module name="spring-security-oauth2-jwt-client" target="1.8" />
+      <module name="spring-security-oauth2-jwt-client01" target="1.8" />
       <module name="spring-security-oauth2-jwt-demo" target="1.8" />
       <module name="spring-security-oauth2-jwt-server" target="1.8" />
       <module name="spring-security-oauth2-redis" target="1.8" />
@@ -63,6 +65,7 @@
       <module name="spring-security-oauth2-client" options="-parameters" />
       <module name="spring-security-oauth2-demo" options="-parameters" />
       <module name="spring-security-oauth2-jwt-client" options="-parameters" />
+      <module name="spring-security-oauth2-jwt-client01" options="-parameters" />
       <module name="spring-security-oauth2-jwt-demo" options="-parameters" />
       <module name="spring-security-oauth2-jwt-server" options="-parameters" />
       <module name="spring-security-oauth2-redis" options="-parameters" />

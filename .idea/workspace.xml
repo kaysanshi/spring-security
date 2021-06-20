@@ -28,9 +28,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-jwt-client/src/main/java/com/kaysanshi/oauth2/jwt/client/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-jwt-client/src/main/java/com/kaysanshi/oauth2/jwt/client/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-jwt-demo/src/main/java/com/kaysanshi/oauth2/jwt/demo/configure/JwtTokenConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-jwt-demo/src/main/java/com/kaysanshi/oauth2/jwt/demo/configure/JwtTokenConfigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-jwt-server/src/main/java/com/kaysanshi/oauth2/jwt/server/configure/JwtTokenConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-jwt-server/src/main/java/com/kaysanshi/oauth2/jwt/server/configure/JwtTokenConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-jwt-server/src/main/java/com/kaysanshi/oauth2/jwt/server/configure/AuthorizationServerConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-jwt-server/src/main/java/com/kaysanshi/oauth2/jwt/server/configure/AuthorizationServerConfigure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604583396659" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security-oauth2-jwt-demo/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security-oauth2-jwt-client01/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -128,7 +126,7 @@
       <recent name="com.kaysanshi.demo4security.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringSecurityApplication">
+  <component name="RunManager" selected="Spring Boot.SpringSecurityApplication (2)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -207,6 +205,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.auth2.client.SpringSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-security-oauth2-jwt-client01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kaysanshi.oauth2.jwt.client01.SpringSecurityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -352,7 +357,7 @@
       <workItem from="1616628830371" duration="1219000" />
       <workItem from="1621736834225" duration="7772000" />
       <workItem from="1621774458900" duration="1252000" />
-      <workItem from="1624168034042" duration="15630000" />
+      <workItem from="1624168034042" duration="18323000" />
     </task>
     <servers />
   </component>
@@ -409,51 +414,51 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="846" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1624180727194" />
-    <state x="527" y="151" key="FileChooserDialogImpl" timestamp="1624179735318">
+    <state x="527" y="151" key="FileChooserDialogImpl" timestamp="1624195470437">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="527" y="149" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616594505000" />
-    <state x="527" y="151" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1624179735318" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1624194651671">
+    <state x="527" y="151" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1624195470437" />
+    <state width="1493" height="297" key="GridCell.Tab.0.bottom" timestamp="1624196259086">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616510015064" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624194651671" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1624194651671">
+    <state width="1493" height="297" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624196259086" />
+    <state width="1493" height="297" key="GridCell.Tab.0.center" timestamp="1624196259086">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="273" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616510015064" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624194651671" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1624194651671">
+    <state width="1493" height="297" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624196259086" />
+    <state width="1493" height="297" key="GridCell.Tab.0.left" timestamp="1624196259086">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="273" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616510015064" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624194651671" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1624194651671">
+    <state width="1493" height="297" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624196259086" />
+    <state width="1493" height="297" key="GridCell.Tab.0.right" timestamp="1624196259086">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="273" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616510015064" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624194651671" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1624194651671">
+    <state width="1493" height="297" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624196259086" />
+    <state width="1493" height="297" key="GridCell.Tab.1.bottom" timestamp="1624196259086">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="273" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616510015064" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624194651671" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1624194651671">
+    <state width="1493" height="297" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624196259086" />
+    <state width="1493" height="297" key="GridCell.Tab.1.center" timestamp="1624196259086">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="273" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616510015064" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624194651671" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1624194651671">
+    <state width="1493" height="297" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624196259086" />
+    <state width="1493" height="297" key="GridCell.Tab.1.left" timestamp="1624196259086">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="273" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616510015064" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624194651671" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1624194651671">
+    <state width="1493" height="297" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624196259086" />
+    <state width="1493" height="297" key="GridCell.Tab.1.right" timestamp="1624196259086">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="273" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616510015064" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624194651671" />
+    <state width="1493" height="297" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624196259086" />
     <state width="1493" height="228" key="GridCell.Tab.2.bottom" timestamp="1616508399393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

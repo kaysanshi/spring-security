@@ -62,7 +62,7 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
      * ClientDetailsServiceConfigurer
      * 主要是注入ClientDetailsService实例对象（唯一配置注入）。其它地方可以通过ClientDetailsServiceConfigurer调用开发配置的ClientDetailsService。
      * 系统提供的二个ClientDetailsService实现类：JdbcClientDetailsService、InMemoryClientDetailsService。
-     *
+     * 同时配置两个授权的路径
      * @param clients
      * @throws Exception
      */
@@ -80,6 +80,22 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
                 .refreshTokenValiditySeconds(864000)
                 // 配置 redirectUri，用于授权成功后跳转
                 .redirectUris("http://localhost:8081/login")
+                // 自动授权
+                .autoApprove(true)
+                // 配置申请的权限范围
+                .scopes("all")
+                // 配置grant_type 表示授权类型。 使用密码模式
+                .authorizedGrantTypes("password","refresh_token","authorization_code")
+                .and()
+                // 配置clientId
+                .withClient("admin2")
+                // 配置client-secret
+                .secret(passwordEncoder.encode("112233"))
+                // 配置token过期时间
+                .accessTokenValiditySeconds(2630)
+                .refreshTokenValiditySeconds(864000)
+                // 配置 redirectUri，用于授权成功后跳转
+                .redirectUris("http://localhost:8082/login")
                 // 自动授权
                 .autoApprove(true)
                 // 配置申请的权限范围
