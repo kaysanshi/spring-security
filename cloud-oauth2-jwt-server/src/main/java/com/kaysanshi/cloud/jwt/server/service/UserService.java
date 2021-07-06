@@ -1,4 +1,4 @@
-package com.kaysanshi.oauth2.jwt.server.service;
+package com.kaysanshi.cloud.jwt.server.service;
 
 import com.kaysanshi.cloud.jwt.server.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
  * @date:2020/10/31
  */
 @Service
-public class UserService implements UserDetailsService {
+public class UserService  implements UserDetailsService {
 
     /**
      * 注入刚引入的bean

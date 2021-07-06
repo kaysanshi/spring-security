@@ -1,7 +1,7 @@
-package com.kaysanshi.oauth2.jwt.server.configure;
+package com.kaysanshi.cloud.jwt.server.configure;
 
 
-import com.kaysanshi.oauth2.jwt.server.service.UserService;
+import com.kaysanshi.cloud.jwt.server.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Configuration;
@@ -12,11 +12,13 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.A
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
+import org.springframework.security.oauth2.provider.client.JdbcClientDetailsService;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 
+import javax.sql.DataSource;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,6 +42,9 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
     private AuthenticationManager authenticationManager;
 
     @Autowired
+    private DataSource dataSource;
+
+    @Autowired
     @Qualifier("jwtTokenStore")
     private TokenStore jwtTokenStore;
 
@@ -57,7 +62,6 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
     @Autowired
     private JwtTokenEnhancer jwtTokenEnhancer;
 
-
     /**
      * ClientDetailsServiceConfigurer
      * 主要是注入ClientDetailsService实例对象（唯一配置注入）。其它地方可以通过ClientDetailsServiceConfigurer调用开发配置的ClientDetailsService。
@@ -69,56 +73,31 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
     @Override
     public void configure(ClientDetailsServiceConfigurer clients)
             throws Exception {
-        // 配置一个基于password认证的。
-        clients.inMemory()
-                // 配置clientId
-                .withClient("admin")
-                // 配置client-secret
-                .secret(passwordEncoder.encode("112233"))
-                // 配置token过期时间
-                .accessTokenValiditySeconds(2630)
-                .refreshTokenValiditySeconds(864000)
-                // 配置 redirectUri，用于授权成功后跳转
-                .redirectUris("http://localhost:8081/login")
-                // 自动授权
-                .autoApprove(true)
-                // 配置申请的权限范围
-                .scopes("all")
-                // 配置grant_type 表示授权类型。 使用密码模式
-                .authorizedGrantTypes("password","refresh_token","authorization_code")
-                .and()
-                // 配置clientId
-                .withClient("admin2")
-                // 配置client-secret
-                .secret(passwordEncoder.encode("112233"))
-                // 配置token过期时间
-                .accessTokenValiditySeconds(2630)
-                .refreshTokenValiditySeconds(864000)
-                // 配置 redirectUri，用于授权成功后跳转
-                .redirectUris("http://localhost:8082/login")
-                // 自动授权
-                .autoApprove(true)
-                // 配置申请的权限范围
-                .scopes("all")
-                // 配置grant_type 表示授权类型。 使用密码模式
-                .authorizedGrantTypes("password","refresh_token","authorization_code");
+        // 使用基于 JDBC 存储模式
+        JdbcClientDetailsService clientDetailsService = new JdbcClientDetailsService(dataSource);
+        clientDetailsService.setPasswordEncoder(passwordEncoder);
+        clients.withClientDetails(clientDetailsService);
     }
 
-    /**
-     * 使用密码模式所需配置
-     * AuthorizationServerEndpointsConfigurer 访问端点配置 是一个装载类
-     * 装载Endpoints所有相关的类配置（AuthorizationServer、TokenServices、TokenStore、ClientDetailsService、UserDetailsService）。
-     * @param endpoints
-     */
     @Override
-    public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
-       // 配置内容增强
+    public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
+        security.allowFormAuthenticationForClients()
+                // 开放 /oauth/token_key 获取加密公钥
+                .tokenKeyAccess("permitAll()")
+                // 开放 /oauth/check_token
+                .checkTokenAccess("permitAll()");
+
+    }
+
+    @Override
+    public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+        // 配置内容增强
         TokenEnhancerChain enhancerChain = new TokenEnhancerChain();
         List<TokenEnhancer> delegates = new ArrayList <>();
         delegates.add(jwtTokenEnhancer);
         delegates.add(jwtAccessTokenConverter);
         enhancerChain.setTokenEnhancers(delegates);
-        //
+        // 开启密码授权
         endpoints.authenticationManager(authenticationManager)
                 .userDetailsService(userService)
                 // 配置存储令牌策略
@@ -126,11 +105,5 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
                 .accessTokenConverter(jwtAccessTokenConverter)
                 // 需要在这里进行配置
                 .tokenEnhancer(enhancerChain);
-    }
-
-    @Override
-    public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
-        // 获取密钥需要身份认证,使用单点登录时必须配置
-        security.tokenKeyAccess("isAuthenticated()");
     }
 }

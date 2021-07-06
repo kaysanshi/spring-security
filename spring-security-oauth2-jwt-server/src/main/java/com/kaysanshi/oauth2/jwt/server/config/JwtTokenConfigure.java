@@ -1,4 +1,4 @@
-package com.kaysanshi.oauth2.jwt.server.configure;
+package com.kaysanshi.oauth2.jwt.server.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

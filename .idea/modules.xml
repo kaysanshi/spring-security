@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-oauth2-jwt-client/cloud-oauth2-jwt-client.iml" filepath="$PROJECT_DIR$/cloud-oauth2-jwt-client/cloud-oauth2-jwt-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-oauth2-jwt-server/cloud-oauth2-jwt-server.iml" filepath="$PROJECT_DIR$/cloud-oauth2-jwt-server/cloud-oauth2-jwt-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/csrf-security/csrf-security.iml" filepath="$PROJECT_DIR$/csrf-security/csrf-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-security/demo-security.iml" filepath="$PROJECT_DIR$/demo-security/demo-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo1-security/demo1-security.iml" filepath="$PROJECT_DIR$/demo1-security/demo1-security.iml" />

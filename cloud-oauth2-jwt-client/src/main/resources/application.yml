@@ -1,0 +1,11 @@
+
+oauth2:
+  resource-id: client-server
+  # token 校验地址
+  check-token-url: http://127.0.0.1:8088/oauth/check_token
+  client-id: oauth-server
+  client-secret: 123456
+
+
+server:
+  port: 8082

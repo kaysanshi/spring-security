@@ -1,5 +1,6 @@
-package com.kaysanshi.oauth2.jwt.server.configure;
+package com.kaysanshi.cloud.jwt.server.configure;
 
+import com.kaysanshi.cloud.jwt.server.pojo.User;
 import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
@@ -17,9 +18,10 @@ import java.util.Map;
 public class JwtTokenEnhancer implements TokenEnhancer {
     @Override
     public OAuth2AccessToken enhance(OAuth2AccessToken accessToken, OAuth2Authentication authentication) {
-        // 自定义内容增强
+        // 自定义内容增强,将用户信息增强到里面
         Map <String, Object> info = new HashMap <>();
-        info.put("enchancer", "info");
+        User userDTO = (User) authentication.getPrincipal();
+        info.put("userName", userDTO.getUsername());
         ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(info);
         return accessToken;
     }
